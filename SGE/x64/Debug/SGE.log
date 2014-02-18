@@ -1,0 +1,64 @@
+﻿Build started 07/10/2012 23:36:13.
+     1>Project "C:\Users\C0BRA\Dropbox\Projects\Head Track\SGE\SGE.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "x64\Debug\SGE.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /Od /D WIN32 /D _DEBUG /D _CONSOLE /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Debug\\" /Fd"x64\Debug\vc100.pdb" /Gd /TP /errorReport:prompt main.cpp SGE\Angle.cpp SGE\Camera.cpp SGE\Configor.cpp SGE\Engine.cpp SGE\FileSystem.cpp SGE\Model.cpp SGE\Options.cpp SGE\Shader.cpp SGE\Texture.cpp SGE\Vector.cpp SGE\World.cpp
+         World.cpp
+         Vector.cpp
+         Texture.cpp
+     1>SGE\Texture.cpp(85): warning C4996: 'strerror': This function or variable may be unsafe. Consider using strerror_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(157) : see declaration of 'strerror'
+         Shader.cpp
+         Options.cpp
+         Model.cpp
+     1>SGE\Model.cpp(14): warning C4267: 'initializing' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>SGE\Model.cpp(480): warning C4244: 'argument' : conversion from 'unsigned __int64' to 'double', possible loss of data
+         FileSystem.cpp
+         Engine.cpp
+     1>SGE\Engine.cpp(70): warning C4244: '=' : conversion from 'double' to 'unsigned int', possible loss of data
+     1>SGE\Engine.cpp(234): warning C4305: 'initializing' : truncation from 'double' to 'GLfloat'
+     1>SGE\Engine.cpp(234): warning C4305: 'initializing' : truncation from 'double' to 'GLfloat'
+     1>SGE\Engine.cpp(234): warning C4305: 'initializing' : truncation from 'double' to 'GLfloat'
+     1>SGE\Engine.cpp(236): warning C4305: 'initializing' : truncation from 'double' to 'GLfloat'
+     1>SGE\Engine.cpp(236): warning C4305: 'initializing' : truncation from 'double' to 'GLfloat'
+     1>SGE\Engine.cpp(236): warning C4305: 'initializing' : truncation from 'double' to 'GLfloat'
+     1>SGE\Engine.cpp(236): warning C4305: 'initializing' : truncation from 'double' to 'GLfloat'
+         Configor.cpp
+     1>SGE\Configor.cpp(92): warning C4267: '=' : conversion from 'size_t' to 'unsigned long', possible loss of data
+     1>SGE\Configor.cpp(214): warning C4244: 'initializing' : conversion from 'std::streamoff' to 'unsigned long', possible loss of data
+     1>SGE\Configor.cpp(315): warning C4267: '=' : conversion from 'size_t' to 'unsigned long', possible loss of data
+     1>SGE\Configor.cpp(579): warning C4267: '=' : conversion from 'size_t' to 'unsigned long', possible loss of data
+     1>SGE\Configor.cpp(590): warning C4267: 'argument' : conversion from 'size_t' to 'unsigned long', possible loss of data
+     1>SGE\Configor.cpp(677): warning C4267: 'argument' : conversion from 'size_t' to 'unsigned long', possible loss of data
+         Camera.cpp
+         Angle.cpp
+         main.cpp
+         Please define _WIN32_WINNT or _WIN32_WINDOWS appropriately. For example:
+         - add -D_WIN32_WINNT=0x0501 to the compiler command line; or
+         - add _WIN32_WINNT=0x0501 to your project's Preprocessor Definitions.
+         Assuming _WIN32_WINNT=0x0501 (i.e. Windows XP target).
+     1>main.cpp(44): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
+         Generating Code...
+       ManifestResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"x64\Debug\SGE.exe.embed.manifest.res" x64\Debug\SGE_manifest.rc 
+       Link:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\C0BRA\Dropbox\Projects\Head Track\bin\SGE.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"x64\Debug\SGE.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\C0BRA\Dropbox\Projects\Head Track\bin\SGE.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\C0BRA\Dropbox\Projects\Head Track\bin\SGE.lib" /MACHINE:X64 x64\Debug\SGE.exe.embed.manifest.res
+         x64\Debug\main.obj
+         x64\Debug\Angle.obj
+         x64\Debug\Camera.obj
+         x64\Debug\Configor.obj
+         x64\Debug\Engine.obj
+         x64\Debug\FileSystem.obj
+         x64\Debug\Model.obj
+         x64\Debug\Options.obj
+         x64\Debug\Shader.obj
+         x64\Debug\Texture.obj
+         x64\Debug\Vector.obj
+         x64\Debug\World.obj
+     1>LINK : fatal error LNK1104: cannot open file 'glew32.lib'
+     1>Done Building Project "C:\Users\C0BRA\Dropbox\Projects\Head Track\SGE\SGE.vcxproj" (build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:13.47

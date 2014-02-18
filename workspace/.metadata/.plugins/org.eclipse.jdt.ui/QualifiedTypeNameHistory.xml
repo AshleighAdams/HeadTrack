@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="android.view.View"/>
+<fullyQualifiedTypeName name="android.widget.EditText"/>
+<fullyQualifiedTypeName name="android.widget.TextView"/>
+<fullyQualifiedTypeName name="com.c0bra.head.track.R.id"/>
+<fullyQualifiedTypeName name="android.hardware.SensorManager"/>
+<fullyQualifiedTypeName name="java.lang.String"/>
+<fullyQualifiedTypeName name="android.R.bool"/>
+<fullyQualifiedTypeName name="android.R.array"/>
+<fullyQualifiedTypeName name="java.lang.Math"/>
+<fullyQualifiedTypeName name="android.hardware.Sensor"/>
+<fullyQualifiedTypeName name="java.net.InetAddress"/>
+<fullyQualifiedTypeName name="android.widget.ToggleButton"/>
+<fullyQualifiedTypeName name="java.net.DatagramPacket"/>
+<fullyQualifiedTypeName name="java.net.DatagramSocket"/>
+<fullyQualifiedTypeName name="android.os.StrictMode.ThreadPolicy"/>
+<fullyQualifiedTypeName name="android.os.StrictMode"/>
+<fullyQualifiedTypeName name="android.content.res.Configuration"/>
+<fullyQualifiedTypeName name="android.content.pm.ActivityInfo"/>
+<fullyQualifiedTypeName name="android.os.PowerManager"/>
+<fullyQualifiedTypeName name="android.content.Context"/>
+<fullyQualifiedTypeName name="java.util.TimerTask"/>
+<fullyQualifiedTypeName name="java.util.Timer"/>
+<fullyQualifiedTypeName name="java.lang.System"/>
+<fullyQualifiedTypeName name="android.opengl.Matrix"/>
+</qualifiedTypeNameHistroy>

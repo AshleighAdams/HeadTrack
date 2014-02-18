@@ -1,0 +1,45 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:configChanges="keyboardHidden|orientation|screenSize"
+    android:gravity="top" >
+
+    <EditText
+        android:id="@+id/tbServer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/tbbSendData"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_toLeftOf="@+id/tbbSendData"
+        android:ems="10"
+        android:hint="@string/ServersIP"
+        android:inputType="number|numberDecimal|text" >
+
+        <requestFocus />
+    </EditText>
+
+    <ToggleButton
+        android:id="@+id/tbbSendData"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="10dp"
+        android:text="ToggleButton" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/tbServer"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:text="You can find the server software and aditional help at http://xiatek.org/headtrack" />
+
+</RelativeLayout>

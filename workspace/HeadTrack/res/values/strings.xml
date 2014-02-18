@@ -1,0 +1,10 @@
+<resources>
+
+    <string name="app_name">Head Track</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_head_track">Head Track</string>
+    <string name="ServersIP">Server\'s IP</string>
+    <string name="Connect">Connect</string>
+
+</resources>
